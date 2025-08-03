@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
-  ECR_REPOSITORY: my-springboot-app # Replace with your ECR repository name
+  ECR_REPOSITORY: neuyer/orders # Replace with your ECR repository name
 
 jobs:
   build-and-push-to-ecr:
